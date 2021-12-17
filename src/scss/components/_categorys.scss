@@ -1,0 +1,19 @@
+.categorys {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    gap: 1rem;
+
+    span {
+        display: block;
+        font-weight: 500;
+        color: rgba(#000000, .65);
+    }
+
+    .active {
+        color: black;
+        font-weight: 600;
+    }
+}

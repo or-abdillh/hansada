@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+navbar .navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+navbar .navbar .navbar-wrapper {
+  background: white;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.35rem;
+}
+navbar .navbar .navbar-wrapper .icon {
+  color: rgba(0, 0, 0, 0.85);
+}
+navbar .wellcome {
+  margin: 2rem 0 1rem;
+}
+navbar .wellcome small {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 0.75rem;
+}
+
+.categorys {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  gap: 1rem;
+}
+.categorys span {
+  display: block;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.65);
+}
+.categorys .active {
+  color: black;
+  font-weight: 600;
+}
+
+.card-wrapper {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-wrapper .card {
+  width: 45%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #e9e8e8;
+  border: 1px solid rgba(167, 167, 167, 0.75);
+  margin-bottom: 0.75rem;
+}
+.card-wrapper .card .card-header img {
+  max-width: 100%;
+}
+.card-wrapper .card .card-footer {
+  padding: 0.35rem;
+  text-align: center;
+}
+.card-wrapper .card .card-footer p, .card-wrapper .card .card-footer strong {
+  font-size: 0.65rem;
+}
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .app {
+    width: 35vw;
+    margin: 0 auto;
+  }
+  .app .navbar .navbar-wrapper {
+    width: 35vw;
+  }
+}
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) {
+  .app {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+  .navbar .navbar-wrapper {
+    width: 30vw !important;
+    padding: 0.25rem 0.15rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  padding: 0.85rem;
+  min-height: 100vh;
+  background: white;
+  border: 1.5px solid whitesmoke;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,31 @@
+@import "../_variabel.scss";
+
+.card-wrapper {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+        width: 45%;
+        border-radius: 10px;
+        overflow: hidden;
+        background: $sub-secondary;
+        border: 1px solid rgba($secondary, .75);
+        margin-bottom: .75rem;
+
+        .card-header img {
+            max-width: 100%;
+        }
+
+        .card-footer {
+            padding: .35rem;
+            text-align: center;
+
+            p, strong {
+                font-size: .65rem;
+            }
+        }
+    }
+}
