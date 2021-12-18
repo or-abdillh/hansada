@@ -39,6 +39,8 @@ navbar .wellcome small {
   display: block;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  transition: 0.3s;
 }
 .categorys .active {
   color: black;
@@ -67,8 +69,10 @@ navbar .wellcome small {
   padding: 0.35rem;
   text-align: center;
 }
-.card-wrapper .card .card-footer p, .card-wrapper .card .card-footer strong {
+.card-wrapper .card .card-footer a, .card-wrapper .card .card-footer strong {
+  text-decoration: none;
   font-size: 0.65rem;
+  cursor: pointer;
 }
 
 /* Medium screens - TABLET */
@@ -92,28 +96,6 @@ navbar .wellcome small {
     width: 30vw !important;
     padding: 0.25rem 0.15rem;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-*::-webkit-scrollbar {
-  display: none;
-}
-
-.app {
-  padding: 0.85rem;
-  min-height: 100vh;
-  background: white;
-  border: 1.5px solid whitesmoke;
-}
-
-body {
-  background-color: #F4F4F4;
 }
 
 /*# sourceMappingURL=index.css.map */

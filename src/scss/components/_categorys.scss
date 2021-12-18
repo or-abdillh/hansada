@@ -10,6 +10,8 @@
         display: block;
         font-weight: 500;
         color: rgba(#000000, .65);
+        cursor: pointer;
+        transition: .3s;
     }
 
     .active {

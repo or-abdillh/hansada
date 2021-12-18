@@ -23,8 +23,10 @@
             padding: .35rem;
             text-align: center;
 
-            p, strong {
+            a, strong {
+               text-decoration: none;
                 font-size: .65rem;
+                cursor: pointer;
             }
         }
     }

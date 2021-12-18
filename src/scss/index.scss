@@ -5,27 +5,3 @@
 @import "components/_categorys.scss";
 @import "components/_card_products.scss";
 @import "_breakpoints.scss";
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-.app {
-    padding: .85rem;
-    min-height: 100vh;
-    background: white;
-    border: 1.5px solid whitesmoke;
-}
-
-body {
-    background-color: #F4F4F4;
-}

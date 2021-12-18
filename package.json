@@ -4,7 +4,7 @@
   "description": "Hansada Online Shopping - Project UAS Pemrograman Web 2021",
   "main": "index.php",
   "scripts": {
-    "start": "sass src/scss/index.scss src/index.css",
+    "sass": "sass src/scss/index.scss src/index.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +18,10 @@
   ],
   "author": "Oka R. Abdillah",
   "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.0.6"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@splidejs/splide": "^3.6.9",
+    "live-server": "^1.2.1",
     "sass": "^1.45.0"
   }
 }
