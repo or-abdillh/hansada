@@ -59,16 +59,16 @@
 
         <!-- categories -->
         <section class="categorys">
-            <span class="active">Shoes</span>
-            <span>Clothing</span>
-            <span>Watchs</span>
-            <span>Bags</span>
+            <span class="active">Adidas</span>
+            <span>Puma</span>
+            <span>Nike</span>
+            <span>Jordan</span>
         </section>
 
         <!-- Card Wrapper -->
         <section class="card-wrapper">
            <!-- Card element -->
-            <div class="card">
+            <div data-role="trigger" class="card">
                 <div class="card-header">
                     <img src="src/assets/shoes.jpg">
                 </div>
@@ -78,7 +78,7 @@
                 </div>
             </div>
            <!-- Card element -->
-            <div class="card">
+            <div data-role="trigger" class="card">
                 <div class="card-header">
                     <img src="src/assets/shoes.jpg">
                 </div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
            <!-- Card element -->
-            <div class="card">
+            <div data-role="trigger" class="card">
                 <div class="card-header">
                     <img src="src/assets/shoes.jpg">
                 </div>
@@ -98,16 +98,41 @@
                 </div>
             </div>
            <!-- Card element -->
-            <div class="card">
+            <div data-role="trigger" class="card">
                 <div class="card-header">
                     <img src="src/assets/shoes.jpg">
                 </div>
                 <div class="card-footer">
-                    <a href="src/pages/detail">New K Tuo</a>
+                    <a  href="src/pages/detail">New K Tuo</a>
                     <strong>Rp565.000</strong>
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <section class="modal">
+			<div class="modal-wrapper">
+				<div class="modal-body">
+					<img src="src/assets/shoes.jpg" />
+					<div>
+						<p>New K Tuo</p>
+	                    <strong>Rp565.000</strong>
+                    </div>
+				</div>
+				<div class="modal-description">
+					<strong>Description</strong>
+					<p>
+						Lorem ipsum sit amet sit dolor halvetica
+						Lorem ipsum sit amet sit dolor halvetica
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button class="confirm">Order now</button>
+					<button class="close">Close</button>
+				</div>
+			</div>
+        </section>
+        
     </main>  
    
     <!-- Script for home -->

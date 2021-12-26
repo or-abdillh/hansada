@@ -10,11 +10,12 @@ navbar .navbar {
 navbar .navbar .navbar-wrapper {
   background: white;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.35rem;
+  padding: 0.65rem 1rem;
 }
 navbar .navbar .navbar-wrapper .icon {
   color: rgba(0, 0, 0, 0.85);
@@ -73,6 +74,82 @@ navbar .wellcome small {
   text-decoration: none;
   font-size: 0.65rem;
   cursor: pointer;
+}
+
+@keyframes modal-active {
+  from {
+    transform: translateY(350%) scale(0.65);
+  }
+  to {
+    transform: translateY(0) scale(1);
+  }
+}
+.modal-active {
+  animation: modal-active 0.45s ease-in forwards;
+}
+
+.modal-layer-active {
+  opacity: 1 !important;
+  z-index: 9999 !important;
+}
+
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: -9;
+}
+.modal .modal-wrapper {
+  width: 85%;
+  margin: 25% auto;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+}
+.modal .modal-wrapper .modal-description {
+  margin-bottom: 1rem;
+}
+.modal .modal-wrapper .modal-description strong {
+  font-size: 0.8rem;
+}
+.modal .modal-wrapper .modal-description p {
+  font-size: 0.65rem;
+}
+.modal .modal-wrapper .modal-body {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.modal .modal-wrapper .modal-body img {
+  width: 40%;
+}
+.modal .modal-wrapper .modal-footer {
+  display: flex;
+  gap: 0.55rem;
+}
+.modal .modal-wrapper .modal-footer button {
+  border-radius: 8px;
+  padding: 0.35rem;
+  font-size: 0.85rem;
+  transition: 0.3s ease;
+}
+.modal .modal-wrapper .modal-footer button:active, .modal .modal-wrapper .modal-footer button:hover {
+  border-width: 2.5px;
+}
+.modal .modal-wrapper .modal-footer .confirm {
+  width: 80%;
+  background: #43A047;
+  color: white;
+  border: 1px solid rgba(0, 128, 0, 0.75);
+}
+.modal .modal-wrapper .modal-footer .close {
+  background: none;
+  border: 1px solid #C5C5C5;
 }
 
 /* Medium screens - TABLET */

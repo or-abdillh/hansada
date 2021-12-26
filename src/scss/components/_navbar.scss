@@ -12,11 +12,12 @@ navbar {
         .navbar-wrapper {
             background: white;
             margin: 0 auto;
-            width: 90%;
+            width: 100%;
+            box-sizing: border-box;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: .2rem .35rem;
+            padding: .65rem 1rem;
         
             .icon {
                 color: rgba(0, 0, 0, .85);
