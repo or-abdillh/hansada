@@ -14,13 +14,15 @@ navbar {
             margin: 0 auto;
             width: 100%;
             box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: .65rem 1rem;
-        
-            .icon {
-                color: rgba(0, 0, 0, .85);
+            text-align: center;
+            
+            h1 {
+               font-size: 1.15rem;
+               
+               i {
+                  color: #1782bf;
+               }
             }
         
         }
