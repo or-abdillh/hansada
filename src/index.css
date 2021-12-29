@@ -153,6 +153,20 @@ navbar .wellcome small {
   border: 1px solid #C5C5C5;
 }
 
+footer {
+  margin: 3rem auto 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem;
+  text-align: center;
+}
+footer small, footer a, footer i {
+  font-size: 0.8rem;
+}
+footer a {
+  text-decoration: none;
+}
+
 /* Medium screens - TABLET */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .app {
