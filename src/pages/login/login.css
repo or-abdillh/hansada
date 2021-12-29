@@ -1,0 +1,76 @@
+footer {
+  margin: 3rem auto 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem;
+  text-align: center;
+}
+footer small, footer a, footer i {
+  font-size: 0.8rem;
+}
+footer a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  padding: 0.65rem;
+  border-radius: 12px;
+}
+.container small {
+  font-size: 0.85rem;
+}
+.container form {
+  margin-top: 1rem;
+}
+.container form .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.65rem;
+}
+.container form .form-group label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.container form .form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 15px;
+  border: 1.5px solid #c4c4c4;
+  font-size: 0.9rem;
+}
+.container form .form-group input::placeholder {
+  font-size: 0.9rem;
+}
+.container form .form-action {
+  width: 100%;
+  margin-top: 1rem;
+}
+.container form .form-action button {
+  width: 100%;
+}
+.container form .form-action .btn {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0.45rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 1.5px solid #c4c4c4;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+.container form .form-action .btn:first-child {
+  background: #1A237E;
+}
+.container form .form-action .btn:first-child, .container form .form-action .btn i {
+  color: #f5f5f5;
+}
+
+/*# sourceMappingURL=login.css.map */

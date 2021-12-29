@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../../app.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Splidejs css -->
+    <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <title>Hansada - Login Admin</title>
+</head>
+<body>
+    <main class="app">
+        <!-- Login -->
+        <section class="container">
+           <h1>Login</h1>
+           <small>Silahkan login sebagai administrator</small>
+            <form method="POST" action="">
+            	<div class="form-group">
+            		<label for="username">Username</label>
+            		<input type="text" placeholder="Masukkan username admin" name="uername" required />
+            	</div>
+            	<div class="form-group">
+            		<label for="password">Password</label>
+            		<input type="password" placeholder="Masukkan password admin" name="password" required />
+            	</div>
+            	<div class="form-action">
+            		<button class="btn" type="submit">
+            			Login 
+            			<i class="fa fa-sign-in-alt"></i>
+            		</button>
+            		<a class="btn" href="../../../">Back</a>
+            	</div>
+            </form>
+        </section>
+        <footer>
+   			<small>
+   				Made with <i class="fa fa-heart"></i> and a cup of <i class="fa fa-coffee"></i> by <a href="github.com/or-abdillh">Oka R. Abdillah</a>
+   			</small>
+        </footer>
+    </main>  
+    
+    <!-- Script for home -->
+    <script src="../../index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

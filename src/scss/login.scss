@@ -1,0 +1,73 @@
+@import './components/_footer.scss';
+
+.container {
+	width: 100%;
+	margin: 1rem auto;
+	box-sizing: border-box;
+	padding: .65rem;
+	border-radius: 12px;
+
+	small {
+		font-size: .85rem;
+	}
+		
+	form {
+		margin-top: 1rem;
+
+		.form-group {
+			display: flex;
+			flex-wrap: wrap;
+			gap: .35rem;
+			margin-bottom: .65rem;
+
+			label {
+				font-size: .9rem;
+				font-weight: 500;
+			}
+			
+			input {
+				width: 100%;
+				padding: .75rem;
+				border-radius: 15px;
+				border: 1.5px solid #c4c4c4;
+				font-size: .9rem;
+				
+				&::placeholder {
+					font-size: .9rem;
+				}
+			}
+		}
+
+		.form-action {
+			width: 100%;
+			margin-top: 1rem;
+
+			button {
+				width: 100%;
+			}
+			
+			.btn {
+				display: block;
+	 		    text-decoration: none;
+				margin-bottom: .45rem;
+				padding: .5rem;
+				border-radius: 15px;
+				border: 1.5px solid #c4c4c4;
+				font-size: .8rem;
+				font-weight: 500;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: .25rem;
+
+				&:first-child {
+					background: #1A237E;
+				}
+
+				&:first-child, i {
+					color: #f5f5f5;
+				}	
+			}
+		}
+	}
+}
